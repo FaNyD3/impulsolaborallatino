@@ -1,0 +1,41 @@
+.fab {
+  position: fixed;
+  right: var(--sp-4);
+  bottom: var(--sp-4);
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-pill);
+  background-color: var(--c-whatsapp);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 10px 26px rgba(13, 27, 42, 0.28);
+  transition: transform 0.2s var(--ease), background-color 0.2s ease;
+}
+
+.fab:hover {
+  background-color: var(--c-whatsapp-hover);
+  transform: translateY(-2px);
+}
+
+.texto {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .fab {
+    right: var(--sp-5);
+    bottom: var(--sp-5);
+    width: auto;
+    height: auto;
+    padding: 14px 22px;
+  }
+
+  .texto {
+    display: inline;
+  }
+}

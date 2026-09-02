@@ -1,0 +1,410 @@
+{
+  "marca": {
+  "nombre": "Impulso Laboral Latino",
+  "descriptor": "Consultoría en Recursos Humanos",
+  "tagline": "Conecta · Transforma · Impulsa",
+  "email": "quezadasmarce@outlook.com",
+  "whatsapp": "525535503524",
+  "whatsappVisible": "+52 55 3550 3524",
+  "instagram": "https://www.instagram.com/impulso_laboral_latino/",
+  "instagramVisible": "@impulso_laboral_latino",
+  "whatsappMensaje": "Hola, vengo del sitio de Impulso Laboral Latino y quiero información sobre los talleres."
+},
+"nav": [
+  { "href": "#servicios", "label": "Servicios" },
+  { "href": "#nosotros", "label": "Quiénes somos" },
+  { "href": "#talleres", "label": "Talleres" },
+  { "href": "#ciclo", "label": "Ciclo trimestral" },
+  { "href": "#contacto", "label": "Contacto" }
+],
+  "hero": {
+    "eyebrow": "Talleres Insignia",
+    "tituloInicio": "Talleres en vivo que cambian",
+    "tituloDestacado": "cómo trabaja",
+    "tituloFin": "tu equipo.",
+    "bajada": "Consultoría de Recursos Humanos con enfoque generalista para PyMEs y empresas corporativas. Diseñamos y facilitamos talleres que fortalecen el talento, la cultura y el desempeño organizacional.",
+    "ctaPrimario": {
+      "href": "#talleres",
+      "label": "Explorar los talleres"
+    },
+    "ctaSecundario": {
+      "href": "#contacto",
+      "label": "Agendar diagnóstico"
+    },
+    "metricas": [
+      {
+        "valor": "5",
+        "label": "líneas de servicio"
+      },
+      {
+        "valor": "3",
+        "label": "talleres insignia"
+      },
+      {
+        "valor": "4 h",
+        "label": "por sesión en vivo"
+      },
+      {
+        "valor": "8–40",
+        "label": "personas por grupo"
+      }
+    ]
+  },
+  "nosotros": {
+    "eyebrow": "Quiénes somos",
+    "titulo": "Nacemos de una pasión por las personas más que por los Recursos Humanos",
+    "parrafos": [
+      "Con más de 30 años de experiencia liderando estrategias de talento, cultura, organización, compensaciones y desarrollo de liderazgo en empresas multinacionales, digitales, financieras, industriales y familiares, construí una trayectoria acompañando a organizaciones en procesos de crecimiento acelerado, transformación cultural, profesionalización e institucionalización, siempre colocando a las personas como un habilitador estratégico para el logro de los objetivos del negocio.",
+      "Centrando la mirada en las personas es posible transformar conversaciones que cambian una carrera, silencios que alejan a un equipo, prejuicios que limitan el talento, preguntas que construyen confianza para que los seres humanos en los negocios sean capaces de construir relaciones de confianza, avance y traduzcan los retos de negocio en estrategias que generan resultados medibles."
+    ],
+    "pilares": [
+      {
+        "icono": "target",
+        "titulo": "Diagnóstico antes de proponer",
+        "texto": "Nunca llegamos con una sesión de catálogo. Primero medimos qué está pasando en el equipo y con eso ajustamos casos y ejercicios."
+      },
+      {
+        "icono": "users",
+        "titulo": "Talleres, no conferencias",
+        "texto": "El grupo practica durante la sesión con situaciones reales de su operación. Se sale con herramientas aplicables, no con apuntes."
+      },
+      {
+        "icono": "chart",
+        "titulo": "Entregables que sirven a dirección",
+        "texto": "Cada intervención cierra con un reporte de hallazgos y recomendaciones accionables para RH y para la dirección de la empresa."
+      }
+    ]
+  },
+  "secciones": [
+    {
+      "id": "servicios",
+      "variante": "servicios",
+      "eyebrow": "Portafolio de servicios",
+      "titulo": "Nuestras líneas de servicio",
+      "subtitulo": "Soluciones integrales para todo el ciclo de vida del talento, del ingreso a la transición de salida.",
+      "items": [
+        {
+          "icono": "search",
+          "titulo": "Reclutamiento y Selección",
+          "puntos": [
+            "Diseño de perfiles de puesto y competencias",
+            "Procesos de atracción y selección de talento: headhunting básico, filtros y entrevistas por competencias",
+            "Assessment centers grupales",
+            "Onboarding e inducción de nuevo personal"
+          ],
+          "formato": "Consultoría por proyecto más el taller «Entrevistas por competencias para líderes», dirigido a gerentes que entrevistan sin ser de RH."
+        },
+        {
+          "icono": "cap",
+          "titulo": "Capacitación y Desarrollo",
+          "puntos": [
+            "Diagnóstico de necesidades de capacitación (DNC)",
+            "Diseño de programas de formación a medida",
+            "Talleres en vivo, presenciales o virtuales: liderazgo y gestión de equipos, inteligencia emocional en el trabajo, comunicación efectiva y feedback, manejo del cambio, trabajo en equipo y colaboración",
+            "Programas de desarrollo de líderes y semilleros de talento"
+          ],
+          "formato": "Talleres de 2 a 4 horas o programas de varias sesiones, por ejemplo un ciclo de liderazgo en 4 módulos.",
+          "talleres": [
+            {
+              "id": "liderazgo-que-conecta",
+              "label": "Liderazgo que Conecta"
+            },
+            {
+              "id": "inteligencia-emocional",
+              "label": "Inteligencia Emocional en Acción"
+            }
+          ]
+        },
+        {
+          "icono": "pulse",
+          "titulo": "Clima Laboral y Cultura Organizacional",
+          "puntos": [
+            "Diagnóstico de clima laboral con encuestas y focus groups",
+            "Diseño e implementación de planes de acción",
+            "Talleres de cultura organizacional y valores",
+            "Estrategias de employer branding interno",
+            "Programas de bienestar laboral"
+          ],
+          "formato": "Diagnóstico con informe entregable, taller de socialización de resultados y taller de plan de acción con líderes.",
+          "talleres": [
+            {
+              "id": "cultura-en-movimiento",
+              "label": "Cultura en Movimiento"
+            }
+          ]
+        },
+        {
+          "icono": "building",
+          "titulo": "Consultoría Generalista y Estructura de RH",
+          "puntos": [
+            "Diseño de estructura organizacional",
+            "Políticas y procedimientos de RH: manual del empleado y reglamento interior",
+            "Sistemas de evaluación del desempeño",
+            "Esquemas de compensación y beneficios, asesoría básica",
+            "Acompañamiento a dueños de PyMEs sin área de RH formal"
+          ],
+          "formato": "Consultoría mensual bajo retainer o por proyecto específico."
+        },
+        {
+          "icono": "trend",
+          "titulo": "Outplacement",
+          "puntos": [
+            "Diseño de programas de transición laboral para personal desvinculado",
+            "Asesoría en búsqueda de empleo: CV, LinkedIn y preparación para entrevistas",
+            "Talleres grupales de reinserción laboral",
+            "Acompañamiento individual de coaching de transición para perfiles directivos",
+            "Asesoría a la empresa en la comunicación y el manejo sensible del proceso de salida"
+          ],
+          "formato": "Paquete por colaborador desvinculado, individual o grupal, con duración de 1 a 3 meses según el nivel del puesto."
+        }
+      ]
+    },
+    {
+      "id": "formatos",
+      "variante": "formatos",
+      "eyebrow": "Formatos de entrega",
+      "titulo": "Cómo trabajamos contigo",
+      "subtitulo": "El mismo contenido se entrega en el formato que le sirva a tu empresa y a tu presupuesto.",
+      "items": [
+        {
+          "titulo": "Taller único",
+          "texto": "Sesión de 2 a 4 horas sobre un tema específico.",
+          "ideal": "Empresas que buscan una intervención puntual"
+        },
+        {
+          "titulo": "Programa por módulos",
+          "texto": "De 3 a 6 sesiones a lo largo de semanas o meses.",
+          "ideal": "Desarrollo de líderes, cultura y cambio organizacional"
+        },
+        {
+          "titulo": "Diagnóstico y taller",
+          "texto": "Evaluación inicial más un taller construido sobre los resultados.",
+          "ideal": "Clima laboral y necesidades de capacitación"
+        },
+        {
+          "titulo": "Consultoría recurrente",
+          "texto": "Acompañamiento mensual bajo esquema de retainer.",
+          "ideal": "PyMEs sin área de RH y empresas en crecimiento"
+        },
+        {
+          "titulo": "In-company o abierta",
+          "texto": "Exclusiva para una sola empresa, o grupal con varias empresas.",
+          "ideal": "Según el presupuesto disponible del cliente"
+        }
+      ]
+    },
+    {
+      "id": "paquetes",
+      "variante": "paquetes",
+      "eyebrow": "Paquetes",
+      "titulo": "Tres formas de empezar",
+      "subtitulo": "La inversión se define por tamaño de grupo y tipo de organización. Te compartimos la propuesta después del diagnóstico inicial.",
+      "items": [
+        {
+          "nivel": "basico",
+          "etiqueta": "Básico",
+          "titulo": "Diagnóstico y Taller Express",
+          "puntos": [
+            "Un diagnóstico breve por encuesta o entrevistas",
+            "Un taller de 3 horas sobre el tema prioritario detectado",
+            "Informe de hallazgos y recomendaciones"
+          ]
+        },
+        {
+          "nivel": "intermedio",
+          "etiqueta": "Intermedio",
+          "insignia": "Más solicitado",
+          "titulo": "Programa de Desarrollo",
+          "puntos": [
+            "Diagnóstico completo con encuestas y focus groups",
+            "Ciclo de 3 a 4 talleres, mensual o quincenal",
+            "Seguimiento y medición de resultados"
+          ]
+        },
+        {
+          "nivel": "premium",
+          "etiqueta": "Premium",
+          "titulo": "Acompañamiento Integral de RH",
+          "puntos": [
+            "Consultoría mensual recurrente",
+            "Diseño y actualización de políticas y procesos de RH",
+            "Talleres trimestrales de liderazgo y cultura",
+            "Soporte continuo por WhatsApp y correo para dudas de RH"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publico",
+      "variante": "publico",
+      "eyebrow": "Público objetivo",
+      "titulo": "Para quién trabajamos",
+      "subtitulo": "Dos realidades distintas que atendemos con el mismo rigor y con propuestas diferentes.",
+      "items": [
+        {
+          "icono": "building",
+          "titulo": "PyMEs",
+          "texto": "Dueños o gerentes generales que necesitan estructura de RH sin contratar un área completa. Buscan resultados prácticos y rápidos, con propuestas ajustadas a su presupuesto."
+        },
+        {
+          "icono": "users",
+          "titulo": "Corporativos",
+          "texto": "Áreas de RH ya establecidas que complementan a su equipo con talleres especializados o diagnósticos externos, con procesos formales de cotización, referencias y casos de éxito."
+        }
+      ]
+    }
+  ],
+  "talleresSeccion": {
+    "eyebrow": "Talleres Insignia",
+    "titulo": "Tres talleres, tres niveles de impacto",
+    "subtitulo": "Se contratan por separado o encadenados como ruta de desarrollo. Elige uno para ver el programa completo."
+  },
+  "talleres": [
+    {
+      "id": "inteligencia-emocional",
+      "orden": "01",
+      "nombre": "Inteligencia Emocional en Acción",
+      "claim": "La base individual: cómo reacciono cuando la presión sube.",
+      "objetivo": "Desarrollar la autoconciencia y la regulación emocional del equipo para mejorar la toma de decisiones, el manejo de conflictos y las relaciones laborales bajo presión.",
+      "dirigidoA": "Equipos operativos, mandos medios y líderes que interactúan con clientes internos o externos.",
+      "duracion": "4 horas · o 2 sesiones de 2 horas",
+      "modalidad": "Presencial o virtual",
+      "grupo": "10 a 25 personas",
+      "contenido": [
+        "Qué es la inteligencia emocional y por qué impacta directamente el desempeño",
+        "Identificación de gatillos emocionales propios",
+        "Técnicas de regulación en el momento: pausa, respiración y reencuadre",
+        "Comunicación asertiva de emociones: siento / porque / necesito",
+        "Feedback como herramienta de crecimiento, no de amenaza",
+        "Práctica dirigida con casos reales del equipo"
+      ],
+      "resultado": "Equipos que manejan mejor el conflicto, dan y reciben feedback sin escalar tensiones, y toman decisiones con mayor claridad bajo presión."
+    },
+    {
+      "id": "liderazgo-que-conecta",
+      "orden": "02",
+      "nombre": "Liderazgo que Conecta",
+      "claim": "El multiplicador: cómo dirijo a otros sin evadir lo difícil.",
+      "objetivo": "Fortalecer las habilidades de liderazgo situacional y comunicación de los mandos medios y gerenciales, para mejorar el compromiso y desempeño de sus equipos.",
+      "dirigidoA": "Gerentes, supervisores y líderes de equipo, con o sin experiencia formal en liderazgo.",
+      "duracion": "4 horas · o programa de 3 sesiones de 2 horas",
+      "modalidad": "Presencial o virtual",
+      "grupo": "8 a 20 personas",
+      "contenido": [
+        "Estilos de liderazgo y cuándo usar cada uno (liderazgo situacional)",
+        "Cómo dar feedback efectivo con el modelo SBI: Situación, Comportamiento, Impacto",
+        "Delegar sin perder el control ni sobrecargar al equipo",
+        "Manejo de conversaciones difíciles: bajo desempeño y conflictos entre pares",
+        "Motivación y reconocimiento: qué mueve realmente a cada persona"
+      ],
+      "resultado": "Líderes con herramientas concretas para dirigir equipos, dar feedback sin evitarlo ni suavizarlo de más, y generar mayor compromiso genuino."
+    },
+    {
+      "id": "cultura-en-movimiento",
+      "orden": "03",
+      "nombre": "Cultura en Movimiento",
+      "claim": "La escala organizacional: cómo sostenemos el cambio entre todos.",
+      "objetivo": "Fortalecer la cultura organizacional y preparar a los equipos para gestionar procesos de cambio —crecimiento, reestructuras, nuevas formas de trabajo— sin deteriorar el clima laboral.",
+      "dirigidoA": "Toda la organización o líderes clave, según el momento que atraviese la empresa.",
+      "duracion": "4 horas · ideal con diagnóstico previo de clima laboral",
+      "modalidad": "Presencial, formato participativo",
+      "grupo": "15 a 40 personas",
+      "contenido": [
+        "Qué es la cultura organizacional y cómo se vive día a día, no solo los valores en la pared",
+        "Diagnóstico rápido grupal: qué nos está funcionando y qué no",
+        "El ciclo del cambio y las reacciones naturales de resistencia",
+        "Rol de cada persona como agente de cultura, no solo RH o los líderes",
+        "Compromisos concretos y plan de acción grupal"
+      ],
+      "resultado": "Equipos alineados en torno a una cultura compartida, con mayor apertura al cambio y compromisos concretos que ellos mismos definieron, lo que eleva la adopción."
+    }
+  ],
+  "incluye": {
+    "eyebrow": "Qué incluye",
+    "titulo": "Cada taller es un proceso, no solo una sesión",
+    "subtitulo": "Los cuatro entregables van incluidos en los tres talleres, sin costo adicional.",
+    "items": [
+      {
+        "icono": "clipboard",
+        "titulo": "Diagnóstico previo",
+        "texto": "Encuesta de 5 minutos al grupo para ajustar los casos y ejercicios al contexto real de tu empresa antes de la sesión."
+      },
+      {
+        "icono": "users",
+        "titulo": "Sesión en vivo facilitada",
+        "texto": "Cuatro horas de taller participativo, presencial o virtual. Se practica en la sesión: nada de conferencia unidireccional."
+      },
+      {
+        "icono": "file",
+        "titulo": "Material de apoyo digital",
+        "texto": "Guías, plantillas y modelos de trabajo que cada participante conserva para aplicar lo visto en su día a día."
+      },
+      {
+        "icono": "chart",
+        "titulo": "Reporte de cierre",
+        "texto": "Hallazgos observados durante el taller y recomendaciones accionables para RH y dirección tras la sesión."
+      }
+    ]
+  },
+  "ciclo": {
+    "eyebrow": "Ciclo trimestral",
+    "titulo": "Un taller al mes, tres niveles de alcance",
+    "bajada": "El orden importa: cada taller prepara el terreno del siguiente. Contratado como ciclo, el equipo recorre la ruta completa de la persona a la organización en un trimestre.",
+    "nota": "La inversión se define por tamaño de grupo y tipo de organización, PyME o corporativo. Te compartimos la propuesta después del diagnóstico inicial.",
+    "cta": "Solicitar propuesta del ciclo",
+    "etapas": [
+      {
+        "mes": "Mes 1",
+        "nivel": "Persona",
+        "titulo": "Inteligencia Emocional en Acción",
+        "texto": "Se empieza por dentro. Sin autorregulación individual, cualquier herramienta de liderazgo se cae en la primera conversación tensa."
+      },
+      {
+        "mes": "Mes 2",
+        "nivel": "Equipo",
+        "titulo": "Liderazgo que Conecta",
+        "texto": "Con la base emocional puesta, los mandos medios multiplican: feedback, delegación y conversaciones difíciles con método."
+      },
+      {
+        "mes": "Mes 3",
+        "nivel": "Organización",
+        "titulo": "Cultura en Movimiento",
+        "texto": "Lo aprendido se vuelve norma compartida y compromisos de cambio que el propio equipo define y sostiene."
+      }
+    ]
+  },
+  "contacto": {
+    "eyebrow": "Agenda tu diagnóstico",
+    "titulo": "Empecemos por entender a tu equipo",
+    "texto": "Cuéntanos el momento que atraviesa tu organización. Respondemos en menos de 24 horas hábiles con una propuesta ajustada al tamaño del grupo y al servicio que mejor resuelve lo que necesitas.",
+    "interesExtra": [
+      {
+        "value": "ciclo",
+        "label": "Ciclo trimestral completo"
+      },
+      {
+        "value": "reclutamiento",
+        "label": "Reclutamiento y Selección"
+      },
+      {
+        "value": "clima",
+        "label": "Clima Laboral y Cultura"
+      },
+      {
+        "value": "consultoria",
+        "label": "Consultoría y Estructura de RH"
+      },
+      {
+        "value": "outplacement",
+        "label": "Outplacement"
+      }
+    ],
+    "tamanosGrupo": [
+      "8 a 15 personas",
+      "16 a 25 personas",
+      "26 a 40 personas",
+      "Más de 40 personas"
+    ],
+    "asuntoCorreo": "Solicitud de información desde el sitio"
+  }
+}

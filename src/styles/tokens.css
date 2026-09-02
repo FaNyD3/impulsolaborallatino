@@ -1,0 +1,92 @@
+/**
+ * Design tokens — única fuente de verdad del sistema visual.
+ * Paleta tomada directamente del logotipo: navy #003262 y verde #278F2D.
+ * Escalas definidas primero para móvil; crecen en `@media (min-width: …)`.
+ */
+:root {
+  /* --- Color de marca --- */
+  --c-navy: #003262;
+  --c-navy-deep: #002344;
+  --c-navy-hover: #01467f;
+  --c-navy-soft: #e8f0f8;
+
+  --c-green: #278f2d;
+  --c-green-deep: #1c6c22;
+  --c-green-soft: #e6f4e7;
+  --c-green-light: #8cc63f;
+
+  /* --- Roles semánticos --- */
+  --c-primary: var(--c-navy);
+  --c-primary-hover: var(--c-navy-hover);
+  --c-primary-soft: var(--c-navy-soft);
+  --c-accent: var(--c-green);
+  --c-accent-soft: var(--c-green-soft);
+  /* Verde legible para texto pequeño sobre fondo claro (>= 4.5:1) */
+  --c-accent-text: var(--c-green-deep);
+  --c-whatsapp: #147a33;
+  --c-whatsapp-hover: #0f5f27;
+
+  /* --- Neutros --- */
+  --c-ink: #0d1b2a;
+  --c-body: #41546b;
+  --c-muted: #586a80;
+  --c-bg: #f2f5f8;
+  --c-surface: #ffffff;
+  --c-surface-alt: #f7fafc;
+  --c-border: #dde5ec;
+  --c-border-strong: #c3cfdb;
+  --c-error: #b3261e;
+
+  /* --- Tipografía --- */
+  --font-display: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --fs-eyebrow: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.0625rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.125rem;
+
+  /* --- Espaciado --- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 40px;
+  --sp-8: 56px;
+  --sp-9: 72px;
+
+  /* --- Formas --- */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(13, 27, 42, 0.06);
+  --shadow-md: 0 4px 16px rgba(13, 27, 42, 0.07);
+  --shadow-lg: 0 18px 44px rgba(13, 27, 42, 0.12);
+
+  /* --- Layout --- */
+  --container: 1140px;
+  --nav-h: 64px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Tipografía y ritmo vertical mayores a partir de tablet */
+@media (min-width: 768px) {
+  :root {
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.375rem;
+    --fs-2xl: 1.75rem;
+    --fs-3xl: 2.25rem;
+    --fs-4xl: 3.25rem;
+    --nav-h: 76px;
+    --sp-8: 64px;
+    --sp-9: 96px;
+  }
+}

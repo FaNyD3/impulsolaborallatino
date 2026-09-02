@@ -1,0 +1,85 @@
+.footer {
+  border-top: 1px solid var(--c-border);
+  background-color: var(--c-surface);
+}
+
+.inner {
+  display: grid;
+  gap: var(--sp-5);
+  padding-block: var(--sp-6);
+}
+
+.logo {
+  height: 52px;
+  width: auto;
+}
+
+.descriptor {
+  margin-top: var(--sp-2);
+  color: var(--c-muted);
+  font-size: var(--fs-sm);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3) var(--sp-5);
+}
+
+.link {
+  display: inline-block;
+  padding-block: var(--sp-3);
+  color: var(--c-body);
+  font-size: var(--fs-sm);
+}
+
+.link:hover {
+  color: var(--c-primary);
+}
+
+.contacto {
+  display: grid;
+  gap: var(--sp-2);
+  font-size: var(--fs-sm);
+}
+
+/* Ícono y etiqueta alineados; el padding asegura área táctil cómoda */
+.canal {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding-block: var(--sp-2);
+  color: var(--c-primary);
+}
+
+.canal:hover {
+  color: var(--c-primary-hover);
+}
+
+.copy {
+  padding-top: var(--sp-5);
+  border-top: 1px solid var(--c-border);
+  color: var(--c-muted);
+  font-size: var(--fs-sm);
+}
+
+@media (min-width: 900px) {
+  .inner {
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding-block: var(--sp-7);
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .contacto {
+    justify-items: end;
+    text-align: right;
+  }
+
+  .copy {
+    grid-column: 1 / -1;
+  }
+}

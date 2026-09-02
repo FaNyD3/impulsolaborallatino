@@ -1,0 +1,244 @@
+.seccion {
+  padding-block: var(--sp-7);
+}
+
+.grid {
+  display: grid;
+  gap: var(--sp-4);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: var(--sp-5);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background-color: var(--c-surface);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s var(--ease), box-shadow 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: var(--sp-4);
+  border-radius: var(--radius-sm);
+  background-color: var(--c-primary-soft);
+  color: var(--c-primary);
+}
+
+.titulo {
+  font-size: var(--fs-lg);
+}
+
+.texto {
+  margin-top: var(--sp-3);
+  color: var(--c-muted);
+  font-size: var(--fs-sm);
+}
+
+.puntos {
+  display: grid;
+  gap: var(--sp-3);
+  margin-top: var(--sp-4);
+}
+
+.punto {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+}
+
+.puntoIcono {
+  flex-shrink: 0;
+  margin-top: 4px;
+  padding: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: var(--radius-pill);
+  background-color: var(--c-green-soft);
+  color: var(--c-green-deep);
+  stroke-width: 2.6;
+}
+
+.formato,
+.ideal {
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-4);
+  border-top: 1px dashed var(--c-border-strong);
+  color: var(--c-muted);
+  font-size: var(--fs-sm);
+}
+
+.formatoLabel,
+.idealLabel,
+.talleresLabel {
+  display: block;
+  margin-bottom: var(--sp-1);
+  color: var(--c-primary);
+  font-family: var(--font-display);
+  font-size: var(--fs-eyebrow);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* --- Enlaces a talleres --- */
+.talleres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+}
+
+.talleresLabel {
+  width: 100%;
+  margin-bottom: 0;
+  color: var(--c-accent-text);
+}
+
+.tallerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--c-green-soft);
+  border-radius: var(--radius-pill);
+  background-color: var(--c-green-soft);
+  color: var(--c-green-deep);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.tallerLink:hover {
+  background-color: #fff;
+  border-color: var(--c-green);
+}
+
+/* --- Variante: líneas de servicio --- */
+.servicios .card {
+  border-top: 3px solid var(--c-primary);
+}
+
+/* --- Variante: formatos de entrega --- */
+.formatos .titulo {
+  font-size: var(--fs-base);
+}
+
+/* --- Variante: paquetes --- */
+.nivel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: var(--sp-3);
+  font-family: var(--font-display);
+  font-size: var(--fs-eyebrow);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nivel::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background-color: currentColor;
+}
+
+.nivel_basico {
+  color: var(--c-green-deep);
+}
+
+.nivel_intermedio {
+  color: var(--c-primary);
+}
+
+.nivel_premium {
+  color: #855a00;
+}
+
+.cardDestacada {
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.insignia {
+  position: absolute;
+  top: -12px;
+  right: var(--sp-5);
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background-color: var(--c-green-deep);
+  color: #fff;
+  font-size: var(--fs-eyebrow);
+  font-weight: 700;
+}
+
+.paqueteCta {
+  margin-top: auto;
+  padding: 13px 20px;
+  border: 1px solid var(--c-primary);
+  border-radius: var(--radius-pill);
+  color: var(--c-primary);
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.paquetes .puntos {
+  margin-bottom: var(--sp-5);
+}
+
+.paqueteCta:hover {
+  background-color: var(--c-primary);
+  color: #fff;
+}
+
+/* --- Variante: público objetivo --- */
+.publico .icono {
+  background-color: var(--c-green-soft);
+  color: var(--c-green-deep);
+}
+
+@media (min-width: 640px) {
+  .formatos,
+  .publico,
+  .paquetes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .seccion {
+    padding-block: var(--sp-8);
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+  }
+
+  .servicios {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .formatos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .paquetes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
